@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-creator": {
+      "source": "vercel-labs/json-render",
+      "sourceType": "github",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "computedHash": "d8c8466e9d4dd30ee87a4976ba8af3e12013967d248ac26d5dc0ae78fe747725"
+    }
+  }
+}
