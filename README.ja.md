@@ -11,3 +11,11 @@ AI コーディングエージェント向けの開発用スキル集です。
 | スキル | 説明 |
 | --- | --- |
 | [commit-message](skills/commit-message/README.md) | Git コミットメッセージを一貫した形式で作成します。 |
+
+## フロントエンド
+
+フロントエンドのスタイリングと UI 基盤向けのスキルです。
+
+| スキル | 説明 |
+| --- | --- |
+| [css-design-system](skills/css-design-system/README.md) | トークン、テーマ、基本スタイル、UI コンポーネント向けの CSS デザインシステム基盤を作成します。 |
