@@ -5,6 +5,11 @@
       "title": "Common",
       "description": "Skills commonly used across projects.",
       "skills": ["commit-message"]
+    },
+    {
+      "title": "Frontend",
+      "description": "Skills for frontend styling and UI foundations.",
+      "skills": ["css-design-system"]
     }
   ],
   "notGrouped": "bottom"
