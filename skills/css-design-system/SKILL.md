@@ -9,7 +9,7 @@ metadata:
     - light
     - dark
     - system
-  version: "1.0.0"
+  version: 1.0.0
 ---
 
 # CSS Design System
@@ -118,10 +118,10 @@ Keep one clear CSS entry file. Split files only when it helps maintainability or
 When using the example split, `index.css` should import in this order:
 
 ```css
-@import './primitives/index.css';
-@import './theme.css';
-@import './base.css';
-@import './components/index.css';
+@import "./primitives/index.css";
+@import "./theme.css";
+@import "./base.css";
+@import "./components/index.css";
 ```
 
 When present, `primitives/index.css` imports primitive files and `components/index.css` imports component files.

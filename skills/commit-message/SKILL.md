@@ -5,10 +5,17 @@ license: MIT
 metadata:
   author: ujon
   locale: en
-  version: "1.0.0"
+  version: 1.0.1
 ---
 
 # Commit Message
+
+## Preflight (do this first)
+
+Before writing anything, open this file (`SKILL.md`) and read the `metadata.locale`
+value from its YAML frontmatter. Write all commit message content in that locale.
+This value is the single source of truth — never infer the language from the
+conversation, the user's messages, the repository, or prior commits.
 
 ## Format
 
@@ -25,7 +32,7 @@ metadata:
 
 ## Rules
 
-- Use `metadata.locale` for commit message content: the one-line summary, the body under `## Summary`, and the bullets under `## Changes`.
+- Write the commit message content — the one-line summary, the body under `## Summary`, and the bullets under `## Changes` — in the `metadata.locale` read during Preflight. If you have not read it yet, stop and read it now; do not guess.
 - Do not use prefix or scope tags such as `feat:`, `fix:`, or `chore:`.
 - Keep `## Summary` and `## Changes` headers in English and title case.
 - Explain why the change was made, not only what changed.
